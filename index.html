@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxmodel</title>
+    <style>
+        *{box-sizing:
+            border-box; margin: 0;
+        }
+    nav{ 
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine;
+display:flex;
+align-items: center;
+padding: 0 30px;
+justify-content: space-between;
+border-radius: 10px;
+}
+ul{ display: flex;
+    gap: 20px;
+    list-style: none;
+   
+
+}
+ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+    list-style: none;
+    text-decoration: none;
+padding: 10px;
+border-radius: 20px;
+
+}
+.saw{
+    margin-bottom: 10px;
+}
+@media only screen  and (max-width:768px) {
+    ul{
+        flex-direction: column;
+    }
+}
+nav{
+    background-color:aqua;
+    height: 150px;
+}
+.corbin{
+    height: 200px;
+   
+    margin-left: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+   transition: all 0.8s;
+}
+
+.corbin:hover{
+    background-color:brown;
+    transform: scale(1.5);}
+
+.qwerty{
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow:0 0 10px black
+    margin-top 80px;
+}
+.ad{
+    margin-left: 80px;
+}
+.tat{
+    margin-left: 250px;
+
+}
+.rda{
+    width: 20%;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    transition: all 0.8s;
+  
+}
+
+.rda:hover{
+    background-color:red;
+    transform: scale(1.5);}
+.yay{
+    display: flex;
+    justify-content: center;
+    align-items: center;margin-left: 29px;
+    margin-top: 20px;
+   
+}
+.logo{
+    border-radius: 50%;
+
+    box-shadow: 0 0 10px black;
+}
+.con{
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+}
+.asa{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+}
+.idi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    margin-left: 400px;
+    margin-bottom: 200px;
+}
+.ee{
+    margin-left: 600px;
+}
+@keyframes david{
+    20%{
+        background-color: aquamarine;
+        transform: rotate(0deg);
+    }
+    30%{
+        background-color: burlywood;
+        transform: rotate(0deg);
+    }
+    80%{
+        background-color: aqua;
+        transform:rotate(0deg);
+    }
+}
+
+.dav{
+    
+background-color: rgb(37, 41, 41);
+width: 100%;
+height: 100px;
+transition: all 0.8s;
+border-radius: 10px;
+padding-left: 40px;
+animation: david ease-in 2s infinite;
+transition: all 0.8s infinite;
+}
+.dav:hover{
+background-color: rgb(42, 67, 165);
+transform: scale(1.5);}
+.xx{ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    
+    border-radius: 20px;
+    background-color: rgb(202, 31, 31) e;
+}
+.rr{
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    transition: all 0.8s;
+
+}
+.ss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.rr:hover{
+    background-color: red;
+    transform: scale(1.5);}
+    .zz{
+        margin-top: 200px;
+    }
+ </style>
+</head>
+    <body>
+      <nav>
+        <div class="logo"><img src="b.PNG" class="con" width="100px"></div>
+        <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT US</a></li>
+       <li><a href="#">HELP</a></li>
+        </ul>
+      </nav>
+    </div>
+    <img src="b.PNG" class="corbin" width="200px">
+</div>
+<div class="dav"><p class="xx"> WELCOME TO MY PORTFOLIO</p></div>
+
+<b><p class="ee">HI IM APROGRAMMER SHEMA<br><br>
+IAM GOOD IN PROGRAMING SAME WEBSITE WITH JAVA SCRIPT<BR> </p></b>
+    <div class="rda"> <p class="yay">4 PROJECT DONE</p></div>
+    <div class="rda"> <p class="yay">2 IN PROCESSING</p></div>
+    <div class="rda"> <p class="yay"> SOFTWARE DEVELPER </p></div>
+
+    <div class="dd"> 
+        <div class="rr"><p class="ss"> WHY ME??????</p></div>
+        <p class="zz"> I HAVE 3 YEARS OF EXPERIANCE <br> IN PYTHONING
+        </p>
+    </div>
+
+<div class="asa"><p class="idi">@ copyright2024</p></div>
+   
+    </body>
+</html>
